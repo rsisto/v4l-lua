@@ -3,3 +3,15 @@ See the example "capture.lua" to see how easy is to capture from V4L2 cameras :D
 To compile v4l-lua, you'll need the v4lconvert and Lua development files.
 
 WARNING: THIS LIBRARY STILL IS IN ALPHA STAGE! Plese, report bugs ;)
+
+Install instructions
+--------------------
+* download lua and v4l headers:
+sudo apt-get install lua5.1-dev
+sudo apt-get install libv4l-dev
+* compile
+make
+* run the test
+lua capture.lua
+
+You should see a new file image.ppm
